@@ -9,7 +9,7 @@ def main():
         expenses = []
         while True:
             user_input = input("Enter expense (or type 'done' to finish): ")
-            if user_input.lower() == 'done':
+            if user_input.lower() == 'done':``
                 break
             try:
                 expense = float(user_input)
